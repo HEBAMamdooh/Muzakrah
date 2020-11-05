@@ -6,82 +6,83 @@
 } */
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 /* Start styling Accounts Forms */
 body {
-    padding: 0;
-    background: url(../img/background/study.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  padding: 0;
+  background: url(../img/background/study.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box {
-   position: absolute;
-   top: 50%;
-   left: 50%; 
-   transform: translate(-50%, -50%);
-   width: 400px;
-   padding: 40px;
-   background: rgba(220, 149, 147, .8);
-   box-sizing: border-box;
-   box-shadow: 0 15px 20px rgba(220, 149, 146, .6);
-   border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(220, 149, 147, .8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 20px rgba(220, 149, 146, .6);
+  border-radius: 15px;
 }
 
-/* Styling  the logo in forms */
-    .logo-form {
-        width: 120px;
-        height: 120px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/*start Styling  the logo in forms */
+.logo-form {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    .logo-form img {
-        width: 120px;
-        height: auto;
-    }
+.logo-form img {
+  width: 120px;
+  height: auto;
+}
+/*End Styling  the logo in forms */
 
 .form-header {
-    text-align: center;
-    margin: 0 0 30px;
-    padding: 0;
-    color:  #BA2B27;
+  text-align: center;
+  margin: 0 0 30px;
+  padding: 0;
+  color:  #BA2B27;
 }
 
 .box .inputform {
-    position: relative;
+  position: relative;
 }
 
 .box .input-form input {
-    width: 100%;
-    padding: 8px 5px;
-    font-size: 17px;
-    color: black;
-    margin-bottom: 25px;
-    border: none;
-    border-bottom: 1px solid #000000;
-    outline: none;
-    background: transparent;
+  width: 100%;
+  padding: 8px 5px;
+  font-size: 17px;
+  color: black;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  background: transparent;
 }
 
 .box .input-form label { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 8px 5px;
-    font-size: 16px;
-    color: teal;
-    pointer-events: none;
-    transition: .5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 5px;
+  font-size: 16px;
+  color: teal;
+  pointer-events: none;
+  transition: .5s;
 }
 
 .form-submit {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
