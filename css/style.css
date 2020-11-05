@@ -5,7 +5,7 @@
     color: #FB7C37;   Orange
 } */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.box{
+.box {
    position: absolute;
    top: 50%;
    left: 50%; 
@@ -38,25 +38,26 @@ body {
         height: 120px;
         display: block;
         margin-left: auto;
-        margin-right: auto;}
+        margin-right: auto;
+    }
 
-    .logo-form img{
+    .logo-form img {
         width: 120px;
         height: auto;
     }
 
-.form-header{
+.form-header {
     text-align: center;
     margin: 0 0 30px;
     padding: 0;
     color:  #BA2B27;
 }
 
-.box .inputform{
+.box .inputform {
     position: relative;
 }
 
-.box .inputform input{
+.box .input-form input {
     width: 100%;
     padding: 8px 5px;
     font-size: 17px;
@@ -68,7 +69,7 @@ body {
     background: transparent;
 }
 
-.box .inputform label{
+.box .input-form label { 
     position: absolute;
     top: 0;
     left: 0;
@@ -78,7 +79,8 @@ body {
     pointer-events: none;
     transition: .5s;
 }
-.form-submit{
+
+.form-submit {
     display: block;
     margin-left: auto;
     margin-right: auto;
