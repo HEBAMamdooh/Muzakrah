@@ -40,16 +40,19 @@
         </div>
         <h3 class="form-header"> سجِل دخول لحسابك الآن</h3>
         <form action="#">
-            <div class="tel">
-                <input type="text" name="Name" placeholder="اسم المستدم">
+            <div class="input-form">
+                <label for="">اسم المستخدم</label>
+                <input type="text" name="Name" placeholder="اسم المستدم" id="" required>
             </div>
-            <div class="password">
-                <input type="password" name="Password" placeholder="كلمة المرور " id="password-field">
+            <div class="input-form">
+                <label for="password-field">رمز المرور</label>
+                <input type="password" name="Password" placeholder="كلمة المرور " id="password-field" required>
             </div>
             <div class="submit"> 
                 <button class="form-submit" name="submit">سجل الآن</button> 
             </div>
         </form>
+
         <div class="log-in-option"> 
             <div class="log-in-checkbox"> 
                 <input id="checkbox" class="checkbox" value="remember-me" type="checkbox">
