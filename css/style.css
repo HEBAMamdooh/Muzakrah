@@ -22,13 +22,13 @@ body {
 .box {
   position: absolute;
   top: 50%;
-  left: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
   padding: 40px;
-  background: rgba(220, 149, 147, .8);
+  background: rgba(220, 149, 147, 0.8);
   box-sizing: border-box;
-  box-shadow: 0 15px 20px rgba(220, 149, 146, .6);
+  box-shadow: 0 15px 20px rgba(220, 149, 146, 0.6);
   border-radius: 15px;
 }
 
@@ -51,7 +51,7 @@ body {
   text-align: center;
   margin: 0 0 30px;
   padding: 0;
-  color:  #BA2B27;
+  color: #ba2b27;
 }
 
 .box .inputform {
@@ -70,7 +70,7 @@ body {
   background: transparent;
 }
 
-.box .input-form label { 
+.box .input-form label {
   position: absolute;
   top: 0;
   left: 0;
@@ -78,7 +78,7 @@ body {
   font-size: 16px;
   color: teal;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .form-submit {
