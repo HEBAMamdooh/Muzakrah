@@ -81,6 +81,15 @@ body {
   transition: 0.5s;
 }
 
+.box .input-form input:focus ~ label,
+.box .input-form input:valid ~ label
+{
+  top: -18px;
+  right: 0;
+  color: #000;
+  font-size: 12px;
+}
+
 .form-submit {
   display: block;
   margin-left: auto;
