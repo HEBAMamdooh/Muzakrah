@@ -52,6 +52,8 @@ body {
   margin: 0 0 30px;
   padding: 0;
   color: #ba2b27;
+  font-family: sans-serif;
+  font-size: 25px;
 }
 
 .box .input-form {
@@ -65,7 +67,7 @@ body {
   color: black;
   margin-bottom: 25px;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #283673;
   outline: none;
   background: transparent;
 }
@@ -73,7 +75,7 @@ body {
 .box .input-form label {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   padding: 8px 5px;
   font-size: 16px;
   color: teal;
@@ -81,13 +83,27 @@ body {
   transition: 0.5s;
 }
 
-.box .input-form input:focus ~ label,
-.box .input-form input:valid ~ label
+/* Change autocomplete styles in WebKit */
+.input-form input:-webkit-autofill,
+.input-form input:-webkit-autofill:hover, 
+.input-form input:-webkit-autofill:focus,
+.input-form textarea:-webkit-autofill,
+.input-form textarea:-webkit-autofill:hover,
+.input-form textarea:-webkit-autofill:focus,
+.input-form select:-webkit-autofill,
+.input-form select:-webkit-autofill:hover,
+.input-form select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #380022;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* .box .input-form input:valid ~ label */
+.box .input-form input:focus ~ label
 {
-  top: -18px;
+  top: -22px;
   right: 0;
-  color: #000;
-  font-size: 12px;
+  color: #283673;
+  font-size: 18px;
+  font-family: 'Harmattan', sans-serif;
 }
 
 .form-submit {

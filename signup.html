@@ -26,6 +26,10 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- linked fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap" rel="stylesheet"> 
+
     <!-- refrence files -->
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <link rel="stylesheet" href="css/style.css">
@@ -40,23 +44,23 @@
 
       <form action="#" >
         <div class="input-form">
-          <input type="text" name="Name" placeholder="اسم المستدم" id="field-name" required>
+          <input type="text" name="Name" id="field-name" required>
           <label for="field-name">اسم المستخدم</label>
         </div>
         <div class="input-form">
-          <input type="email" name="E-mail" placeholder="your@example.xxx" id="field-email" required>
+          <input type="email" name="E-mail" id="field-email" required>
           <label for="field-email">البريد الآلكترونى</label>
         </div>
         <div class="input-form">
-          <input type="tel" name="Phone Number" placeholder="01023456789" id="field-phone" pattern="[0]{1}[1]{1}[0, 1, 2]{1}[0-9]{8}" >
+          <input type="tel" name="Phone Number" id="field-phone" pattern="[0]{1}[1]{1}[0, 1, 2]{1}[0-9]{8}">
           <label for="field-phone">رقم الهاتف</label>
         </div>
         <div class="input-form">
-          <input type="password" name="Password" placeholder="كلمة المرور " id="password-field" required>
+          <input type="password" name="Password" id="password-field" required>
           <label for="password-field">رمز المرور</label>
         </div>
         <div class="input-form">
-          <input type="password" name="Confirm Password" placeholder="اعد كتابة كلمة المرور" id="password-field" required>
+          <input type="password" name="Confirm Password" id="password-field" required>
           <label for="password-field">تأكيد رمز المرور</label>
         </div>
         <div class="submit"> 
@@ -65,7 +69,7 @@
       </form>
 
       <div class=""> 
-        <p>لديك حساب بالفعل <a href="login.html">قم بتسجبل الدخول لحسابك </a></p>
+        <p> إذا كان لديك حساب بالفعل فقم<a href="login.html"> بتسجبل الدخول  </a> لحسابك </p>
       </div>
     </div>
   </body>
