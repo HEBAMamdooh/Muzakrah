@@ -11,9 +11,12 @@
   font-family: sans-serif;
 }
 
-/* Start styling Accounts Forms */
 body {
   padding: 0;
+}
+
+/* Start styling Accounts Forms */
+.forms{
   background: url(../img/background/study.jpg);
   background-size: cover;
   background-repeat: no-repeat;
